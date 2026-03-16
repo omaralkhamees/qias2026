@@ -1,0 +1,24 @@
+# Round 1: Mistral Medium 2508 + Reasoning
+method: "llm_reasoning"
+
+model:
+  provider: "mistral"
+  name: "mistral-medium-2508"
+  temperature: 0
+  max_output_tokens: 16000
+  max_retries: 3
+  retry_delay: 5
+
+paths:
+  system_prompt: "prompts/system_prompt.txt"
+  parsing_prompt: "prompts/parsing_prompt.txt"
+  dataset_dir: "dataset"
+  output_dir: "output"
+
+benchmark:
+  sample_size: 500
+  seed: 42
+  source: "test"
+
+evaluation:
+  evaluator_src: "evaluator"

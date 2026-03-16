@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Environment variables (API keys)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output (reproducible by re-running)
+output/
+
+# Dataset (download from QIAS organizers)
+dataset/
+
+# Original shared task repo (evaluator is bundled in evaluator/)
+qias_shared_task_2026-main/
+
+# Claude Code config
+.claude/
+.claudeignore
+
+# Paper assets (not part of the codebase)
+paper/
+*.png
+BIBLIOGRAPHY_AND_FORMATTING_GUIDE.md
+results.md

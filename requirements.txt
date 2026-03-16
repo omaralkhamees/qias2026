@@ -1,0 +1,9 @@
+pyyaml
+python-dotenv
+google-genai
+mistralai
+playwright
+pandas
+numpy
+matplotlib
+seaborn
