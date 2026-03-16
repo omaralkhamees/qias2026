@@ -25,7 +25,7 @@ cp .env.example .env
 
 ### Dataset
 
-Download the MAWARITH dataset from the [official QIAS 2026 repository](https://github.com/bouchekif/mawarith_qias2026) and place it under `dataset/`:
+Download the MAWARITH dataset from the [official QIAS 2026 repository](https://gitlab.com/islamgpt1/qias_shared_task_2026) and place it under `dataset/`:
 
 ```
 dataset/
@@ -38,7 +38,7 @@ dataset/
 
 ### Official Evaluator
 
-The MIR-E evaluation scorer from the [official QIAS 2026 shared task](https://gitlab.com/islamgpt1/qias_shared_task_2026) is bundled under `evaluator/`. No additional cloning is needed.
+The MIR-E evaluation scorer from the [official QIAS 2026 shared task](https://gitlab.com/islamgpt1/qias_shared_task_2026) is bundled under `evaluator/`. No additional cloning is needed. No additional cloning is needed.
 
 ## Configuration
 
