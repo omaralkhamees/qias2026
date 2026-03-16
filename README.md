@@ -114,8 +114,7 @@ python scripts/del.py output/dev/my_experiment/checkpoint.json case_id_1 case_id
 └── scripts/
     ├── del.py                # Delete specific cases from checkpoint
     ├── del_failed.py         # Delete failed cases from checkpoint
-    ├── convert_predictions.py # Format conversion utility
-    └── make_charts.py        # Generate result charts
+    └── convert_predictions.py # Format conversion utility
 ```
 
 Each run produces an output directory containing: `sample.json`, `reference.json`, `checkpoint.json`, `predictions.json`, `eval.json`, `eval.csv`, `summary.json`, `analysis.json`, and `config_snapshot.yaml`.
